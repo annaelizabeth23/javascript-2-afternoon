@@ -32,7 +32,14 @@ alert(me.name);
 */
 
 //Code here
-
+let favoriteThings = {
+  band: "Above and Beyond",
+  food: "BBQ",
+  person: "the husband",
+  book: "LOTR",
+  movie: "Princess Bride",
+  holiday: "Christmas"
+}
 
 
 /*
@@ -40,7 +47,8 @@ alert(me.name);
 */
 
 //Code here
-
+favoriteThings.car = "Audi";
+favoriteThings.brand = "Kate Spade";
 
 
 /*
@@ -48,8 +56,10 @@ alert(me.name);
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
-
+//19
 
 ////////// PROBLEM 3 //////////
 
@@ -62,7 +72,10 @@ alert(me.name);
 */
 
 //Code here
-
+var backPack = {};
+var item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "purple";
 
 
 /*
@@ -70,7 +83,7 @@ alert(me.name);
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -80,7 +93,9 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
+//14
 
 
 ////////// PROBLEM 4 //////////
@@ -103,7 +118,10 @@ var user2 = {
 */
 
 //Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
+//13
 
 
 ////////// EXTRA PRACTICE PROBLEMS BELOW //////////
@@ -115,7 +133,7 @@ var user2 = {
 */
 
 //Code Here
-
+var methodCollecton = {};
 
 
 /*
